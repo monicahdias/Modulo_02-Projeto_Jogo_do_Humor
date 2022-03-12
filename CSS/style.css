@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Amatic SC", cursive, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #b5a2c5;
+  width: 100%;
+  background-size: auto;
+}
+
+#audio {
+  align-items: flex-end;
+}
+
+header {
+  background-color: #b5a2c5;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#titulo {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: rgb(50, 5, 59);
+  font-size: 4rem;
+  text-shadow: 0.1rem 0.1rem #ffffff80;
+  font-weight: bold;
+}
+
+#subtitulo {
+  background-color: #ffffff52;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  font-size: 2rem;
+}
+
+#itens {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 42.5rem;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+
+#geral {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+#textos {
+  padding: 5rem;
+  padding-bottom: 8rem;
+}
+
+img {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+#nome {
+  width: 65%;
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgba(250, 235, 215, 0.63);
+  padding: 2rem 2rem 0 2rem;
+  font-weight: bold;
+}
+
+#situacao {
+  width: 65%;
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: rgba(250, 235, 215, 0.63);
+  padding: 2rem;
+}
+
+#botao {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 8rem;
+}
+
+#button {
+  font-size: 3rem;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 600;
+  background-color: #88d4bb;
+  border: 2px solid #88d4bb;
+  border-radius: 2rem;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  text-shadow: 0.1rem 0.1rem #ffffff80;
+  position: absolute;
+}
+
+#button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 1px #ffffff50;
+}
+
+footer {
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  min-height: 5%;
+  color: white;
+  background-color: #b5a2c5;
+  justify-content: center;
+  font-size: 1rem;
+}
