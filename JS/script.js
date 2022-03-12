@@ -13,11 +13,11 @@ function mudarImagem(){
     else if (cont == 2) {
         document.getElementById("img1").src ="./images/img3.png";
         document.getElementById("nome").innerText = "ZEN";
-        document.getElementById("situacao").innerText = "Não me perturba que hoje tô de boa!";
+        document.getElementById("situacao").innerText = "Não me perturba que hoje eu tô tranquila!";
     } else if (cont == 3) {
         document.getElementById("img1").src ="./images/img4.png";
         document.getElementById("nome").innerText = "MANDONA";
-        document.getElementById("situacao").innerText = "Já falei pra ir pro banho, AGORA!";
+        document.getElementById("situacao").innerText = "Já FALEI pra você tomar banho, AGORA!";
     } else if (cont == 4) {
         document.getElementById("img1").src ="./images/img5.png";
         document.getElementById("nome").innerText = "DRAMÁTICA";
