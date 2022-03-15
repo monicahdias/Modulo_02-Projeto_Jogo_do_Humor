@@ -8,7 +8,7 @@ function mudarImagem(){
     if(cont == 1){
         document.getElementById("img1").src= "./images/img2.png";
         document.getElementById("nome").innerText = "PREOCUPADA";
-        document.getElementById("situacao").innerText = "Quando eles vão arrumar um emprego?";
+        document.getElementById("situacao").innerText = "Quando será que eles vão arrumar um emprego?";
     }
     else if (cont == 2) {
         document.getElementById("img1").src ="./images/img3.png";
